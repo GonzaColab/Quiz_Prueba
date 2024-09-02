@@ -14,9 +14,9 @@ public class Quiz {
         Scanner scanner = new Scanner(System.in);
         int puntacion = 0;
 
-        for (Pregunta p; preguntas);{
-            System.out.println(p.getPregunta());
-            String[] opciones = p.getOpciones();
+        for (Pregunta p; preguntas){
+            System.out.println(Pregunta.getPregunta());
+            String[] opciones = Pregunta.getOpciones();
             for (int i = 0; i < opciones.length; i++) {
                 System.out.println(((i + 1) + ". " + opciones[i]));
             }

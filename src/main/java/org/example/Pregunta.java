@@ -12,11 +12,11 @@ public class Pregunta {
         this.respuestaCorrecta = respuestaCorrecta;
     }
 
-    public String getPregunta() {
+    public static String getPregunta() {
         return pregunta;
     }
 
-    public String[] getOpciones() {
+    public static String[] getOpciones() {
         return opciones;
     }
 
