@@ -13,11 +13,11 @@ public class Pregunta {
     }
 
     public static String getPregunta() {
-        return pregunta;
+      return pregunta;
     }
 
     public static String[] getOpciones() {
-        return opciones;
+       return opciones;
     }
 
     public int getRespuestaCorrecta() {
